@@ -1,0 +1,19 @@
+/*body{*/
+/*    background-image: url("../../images/verify.jpg");*/
+/*}*/
+
+.btSubmit{
+    position: fixed;
+    width: 100%;
+    margin-left: 1px;
+    padding-left: 1px;
+}
+div{
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5em;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+/*body{*/
+/*    background-image: url("../../images/verify.jpg");*/
+/*    background-size: 100% 100%;*/
+/*}*/
+
+.error{
+    color: red;
+}
+
+.grid
+{
+    display: block;
+    width: 250px;
+    height: 790px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #f7f8f9;
+    margin-left: 15em;
+    margin-top: 3em;
+    float: left;
+}
+
+.grid ul{
+    background: #f7f8f9;
+    width: 100%;
+}
+
+.grid ul li{
+
+    margin-left: -3.2em;
+    list-style: none;
+    width: 248px;
+    background: #f7f8f9;
+    transition: transform 0.5s;
+    color: black;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+.grid ul li:hover{
+
+    background: #817ffe;
+    color: #f3ffff;
+}
+.grid ul li:focus {
+    color: #817ffe;
+}
+
+.aside
+{
+    display: block;
+    width: 600px;
+    height: 790px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #f7f8f9;
+    margin-left: 4em;
+    margin-top: 3em;
+}
+
+
+
+button
+{
+    background: #817ffe;
+    border: 0;
+    cursor: pointer;
+    color: #f3ffff;
+    border-radius: 26px;
+    padding: 12px 118px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+
+}
+button:hover{ background: #403866; transition: .6s;}
+
+::placeholder{color: #bdbdd3;}
+
+.MyInput
+{
+    width: 300px;
+    background: #ecf1f4;
+    border: 1px solid #ecf1f4;
+    border-radius: 26px;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-indent: 5px;
+    transition: all 0.6s ease;
+}
+
+#turu{
+
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+#huru{
+    margin-left: 1.6em;
+    margin-bottom: 2em;
+    width: 45px;
+    height: 45px;
+}
+
+label{
+    margin-left: 1em;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+i{
+    margin-right: 15px;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.tab {
+    cursor: pointer;
+}
+.active[data-tab-content] {
+    display: flex;
+}
+
+.tab.active {
+    background:#817ffe;
+    color: #f3ffff;
+}
+
+.image{
+    margin-left:76em;
+    margin-top: -50em;
+}

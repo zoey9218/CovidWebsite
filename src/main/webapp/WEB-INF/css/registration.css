@@ -1,0 +1,67 @@
+
+.MyForm
+{
+    width: 20%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1
+{
+    text-align: center;
+    color: #8A8FC7;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.MyInput
+{
+    width: 100%;
+    background: #ecf1f4;
+    border: 1px solid #ecf1f4;
+    border-radius: 26px;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-indent: 5px;
+    transition: all 0.6s ease;
+}
+
+span{
+    float: left;
+    color: red;
+    margin-left: 1.5em;
+    font-size: 9pt;
+    font-family: "Open Sans", sans-serif;
+}
+
+button
+{    width: 350px;
+    background:  #817ffe;
+    border: 0;
+    cursor: pointer;
+    color: #f3ffff;
+    border-radius: 26px;
+    padding: 12px 118px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+button:hover{ background: #403866; transition: .6s;}
+
+::placeholder{color: #bdbdd3;}
+
+#registration_pic img{
+    height: 100%;
+}

@@ -1,0 +1,70 @@
+/*
+https://www.schemecolor.com/pastel-child.php
+The Pastel Child Color Scheme palette has 4 colors which are
+Bone (#E4D8CC),
+Cadet Blue (Crayola) (#B6B6CC),
+Queen Pink (#E7D2DC)
+Linen (#F7F0E1).
+
+https://www.schemecolor.com/purple-critic.php
+The Purple Critic Color Scheme palette has 3 colors which are
+Ceil (#8A8FC7),
+Piggy Pink (#F7DBE9)
+Tropical Violet (#C3B1D9).
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Exo', sans-serif;
+
+}
+/*navbar css*/
+.navbar {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #03203E;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #C6E3ED;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #42BCF3;
+    color: #05081B;
+}
+/*#navbar{*/
+/*    background-color: #B6B6CC;*/
+/*    border: 1px solid #B6B6CC;*/
+/*}*/
+/*#navbar nav ul{*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+/*#navbar nav ul li{*/
+/*    float: right;*/
+/*    border: 1px solid red;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*#navbar nav li a*/
+/*{*/
+/*    border: 1px solid #6D6E80;*/
+/*    font-family: "Open Sans", sans-serif;*/
+/*    font-weight: bold;*/
+/*    font-size: 14pt;*/
+/*    color: cornflowerblue;*/
+/*    text-decoration: none;*/
+/*    padding: 14px 16px;*/
+/*}*/

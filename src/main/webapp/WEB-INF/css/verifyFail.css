@@ -1,0 +1,15 @@
+/*body{*/
+/*    background-image: url("../../images/verify.jpg");*/
+/*}*/
+
+p,#request_new_link{
+    font-size: 18pt;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#register{
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}

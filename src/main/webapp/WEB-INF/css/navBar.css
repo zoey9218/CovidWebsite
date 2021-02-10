@@ -1,0 +1,38 @@
+li, a
+{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px ;
+    color: white;
+
+}
+#bal
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 13%;
+    background:  #403866;
+    text-decoration: none;
+    height: 70px;
+}
+a img{
+    width: 170px;
+    height: 30px;
+}
+
+#nav__links li {
+
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    background: none;
+    text-decoration: none;
+}
+#nav__links li a{
+
+  color: white;
+    text-decoration: none;
+}
